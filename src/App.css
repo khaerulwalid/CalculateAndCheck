@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url("https://static.vecteezy.com/system/resources/previews/001/760/224/original/white-science-background-with-lines-and-structures-vector.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.app {
+  background-color: aquamarine;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20% auto;
+  border-radius: 10px;
+  padding: 30px;
+  color: rgb(0, 21, 39);
+}
+
+.headform {
+  background-color: azure;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.formsoal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
